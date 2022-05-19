@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name {
+  color: #bf046b;
+}
+
+.message {
+  color: #212126;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
